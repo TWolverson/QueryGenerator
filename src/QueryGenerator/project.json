@@ -1,0 +1,24 @@
+{
+  "version": "1.0.0-*",
+  "description": "QueryGenerator Console Application",
+  "authors": [ "Tom" ],
+  "tags": [ "" ],
+  "projectUrl": "",
+  "licenseUrl": "",
+
+  "dependencies": {
+    "Newtonsoft.Json": "8.0.2"
+  },
+
+  "commands": {
+    "QueryGenerator": "QueryGenerator"
+  },
+
+  "frameworks": {
+    "dnx451": {
+      "frameworkAssemblies": {
+        "System.Web.RegularExpressions": "4.0.0.0"
+      }
+    }
+  }
+}
